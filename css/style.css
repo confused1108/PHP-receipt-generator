@@ -1,0 +1,72 @@
+body {
+    font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif; /* 960.gs */
+    background:#ececec;
+}
+.col {
+    width:50%;
+    float:left;
+}
+fieldset {
+    border:1px solid #474747;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    margin-bottom:10px;
+}
+legend {
+    background:#474747;
+    color:#fff;
+    padding:3px 15px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    font-weight:bold;
+}
+#wrap {
+    width:820px;
+    padding:20px;
+    margin:20px auto;
+    background:#fff;
+    border:1px solid #ccc;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+p {
+    padding:2px;
+}
+label {
+    display:inline-block;
+    width:100px;
+    font-weight:bold;
+}
+label:after {
+    content: ":";
+}
+input {
+    display:inline-block;
+    width:200px;
+    border:1px solid #ccc;
+    padding:5px;
+    margin:0;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+thead  td {
+    text-align:center;
+    font-weight:bold;
+}
+td + td > input {
+    width:50px;
+}
+button {
+    border:1px solid #474747;
+    background:#ccc;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    padding:10px;
+    margin:10px;
+    font-weight:bold;
+    font-size:200%;
+}
+button:hover {
+    background:#ececec;
+    cursor:pointer;
+}
