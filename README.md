@@ -2,7 +2,7 @@
 <br>
 A simple Receipt generator for an online store or store with computerised reciept. It take data from user such as details of customer and details of products.
 <br>
-It can also be modified to take this details from a database
+It can also be modified to take the details from a database
 <br>
 The generated Reciept is ready for download
 <br>
